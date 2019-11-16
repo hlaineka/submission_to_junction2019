@@ -1,0 +1,136 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #fefefe;
+	background-repeat:no-repeat;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+
+
+#page
+{
+  display: grid; 
+    grid-template-columns: auto 121px 121px 121px 121px 121px auto;
+    grid-template-rows: 100px;
+  position: relative; 
+  overflow: hidden; 
+  width: 670px;
+}
+
+.logoimage {
+    background-size: contain;
+    background-image:url("logolila.png");
+     background-repeat: no-repeat; 
+}
+.topNaviagationLink
+{
+text-align:center;
+position:relative;
+margin-top:30px;
+font-size:16px;
+margin-left:-10px;
+width:121px;
+height: 35px;
+line-height: 35px;
+float:left;
+color:#fefefe;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+
+.topNaviagationLink a
+{
+text-decoration:none;
+color:#333;
+}
+
+.topNaviagationLink a:hover
+{
+text-align:center;
+border-bottom:none;
+color:#0C61C9;
+display: block;
+width:121px;
+height: 35px;
+line-height: 35px;
+background-image:url(tab.png);
+
+}
+
+#mainPicture
+{
+width:100%;
+height:345px;
+background-color:#fefefe;
+}
+
+#mainPicture
+{
+width:100%;
+height:345px;
+background-color:#fefefe;
+}
+
+#mainPicture .picture
+{
+position:relative;
+width:100%;
+height:325px;
+top:10px;
+background-image:url("banner.jpg");
+background-repeat:no-repeat;
+margin-left:10px;
+}
+
+#headerTitle
+{
+position:relative;
+top:30px;
+left:40px;
+font-size:25px;
+color:#FFFFFF;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+#headerSubtext
+{
+position:relative;
+top:30px;
+left:50px;
+font-size:14px;
+color:#A9C8FA;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+.block,
+li {
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}  
+
+.exampleRecipe
+{
+    background-size: contain;
+    background-image : url("reduce.png");
+    background-repeat : no-repeat;
+}
