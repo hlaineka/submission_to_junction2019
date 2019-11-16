@@ -52,8 +52,20 @@ Released   : 20081009
         </div>
         </div> 
         </li>
-  <li><img src="seasonal.png" width="550" height="450"></li>
-  <li><img src="health.png" width="550" height="450"></li>
+  <li><button onclick="myFunction2()"><img src="health.png" width="550" height="450"></button>
+
+        <div id="myDIV">
+         <div class="div-wrapper">
+        <img src="rose.jpg"/>
+        </div>
+        </div> </li>
+  <li><button onclick="myFunction3()"><img src="seasonal.png" width="550" height="450"></button>
+
+        <div id="myDIV">
+         <div class="div-wrapper">
+        <img src="flower.jpg"/>
+        </div>
+        </div> </li>
     </ul>
         <div id="footer"><a href="https://www.hackjunction.com/concepts/junction">Junction 2019</a> <br>by Helvi Lainekallio, Juhani Haikka, Melissa Alasalmi, Camilla Leisti, Shinichi Takagi</div>
 </body>
@@ -61,6 +73,22 @@ Released   : 20081009
 <script>
 function myFunction() {
   var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} 
+function myFunction2() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} 
+function myFunction3() {
+  var x = document.getElementById("myDIV3");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {

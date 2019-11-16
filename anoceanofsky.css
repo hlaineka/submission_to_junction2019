@@ -163,6 +163,20 @@ ul {
   height: 500px;
   background: #fefefe;
 }
+
+#myDIV2{
+    display: block;
+  width: 500px;
+  height: 500px;
+  background: #fefefe;
+}
+
+#myDIV3{
+    display: block;
+  width: 500px;
+  height: 500px;
+  background: #fefefe;
+}
 .exampleimage {
     position:relative;
     width:100%;
