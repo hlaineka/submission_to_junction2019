@@ -22,18 +22,54 @@ body {
 #page
 {
   display: grid; 
-    grid-template-columns: auto 121px 121px 121px 121px 121px auto;
+    grid-template-columns: 359px 100px 100px 100px 100px 100px 174px 72px;
     grid-template-rows: 100px;
   position: relative; 
   overflow: hidden; 
-  width: 670px;
+    width: 100%
 }
 
 .logoimage {
-    background-size: contain;
+    position:relative;
+    width:100%;
+    height:100%;
+    top:0px;
     background-image:url("logolila.png");
-     background-repeat: no-repeat; 
+    background-repeat:no-repeat;
+    margin-left:10px;
 }
+
+.kirjauduimage {
+    position:relative;
+    width:100%;
+    height:100%;
+    bottom:0px;
+    background-image:url("kirjaudu.png");
+    background-repeat:no-repeat;
+    margin-left:10px;
+}
+
+.cartillaimage {
+    position:relative;
+    width:100%;
+    height:100%;
+    bottom:0px;
+    background-image:url("cartlila.png");
+    background-repeat:no-repeat;
+    margin-left:10px;
+}
+.div-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 .topNaviagationLink
 {
 text-align:center;
@@ -67,13 +103,6 @@ height: 35px;
 line-height: 35px;
 background-image:url(tab.png);
 
-}
-
-#mainPicture
-{
-width:100%;
-height:345px;
-background-color:#fefefe;
 }
 
 #mainPicture
@@ -128,9 +157,3 @@ ul {
   display: block;
 }  
 
-.exampleRecipe
-{
-    background-size: contain;
-    background-image : url("reduce.png");
-    background-repeat : no-repeat;
-}
