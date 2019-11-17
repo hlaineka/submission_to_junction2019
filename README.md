@@ -28,8 +28,13 @@ What’s under the hood?
 - Graphics based on client media, utilizing what exists for smooth integration
 
 Group partisipants and their roles:
+
 Camilla Leisti - Design and Back end / Former Customer Service
+
 Juhani Haikka - Tech assistant and Front end / Former Computer Electronics Engineer
+
 Helvi Lainekallio - Front end / Former Social Counselor
+
 Shinichi Takagi - Tech Lead and API / Former English Teacher
+
 Melissa Alasalmi - Team Lead Former Content Manager
