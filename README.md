@@ -27,7 +27,8 @@ What’s under the hood?
 - Back end powered by Kesko APIs and NodeJS
 - Graphics based on client media, utilizing what exists for smooth integration
 
-Group partisipants and their roles:
+
+#Group partisipants and their roles:
 
 Camilla Leisti - Design and Back end / Former Customer Service
 
