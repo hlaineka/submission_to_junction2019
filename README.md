@@ -44,4 +44,4 @@ Helvi Lainekallio - Front end / Former Social Counselor
 
 Shinichi Takagi - Tech Lead and API / Former English Teacher
 
-Melissa Alasalmi - Team Lead Former Content Manager
+Melissa Alasalmi - Team Lead Former / Content Manager
