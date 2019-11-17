@@ -1,12 +1,13 @@
 /* A Free Design by Bryant Smith (bryantsmith.com) */
 
-
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700'
+ rel='stylesheet' type='text/css'>
 
 body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-family:'Open Sans', sans-serif;
 	font-size: 13px;
 	color: #061C37;
 	background: #fefefe;
@@ -17,11 +18,10 @@ body {
   margin: 0 auto 0 auto;
  text-align:left;}
 
-
-
 #page
 {
-  display: grid; 
+  display: grid;
+    height:100px;
     grid-template-columns: 359px auto auto auto auto auto 174px 72px;
     grid-template-rows: 100px;
   position: relative; 
@@ -82,7 +82,7 @@ height: 35px;
 line-height: 35px;
 float:left;
 color:#fefefe;
-font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+font-family:'Open Sans', sans-serif;
 }
 
 
@@ -108,7 +108,7 @@ background-image:url(tab.png);
 #mainPicture
 {
 width:100%;
-height:345px;
+height:275px;
 background-color:#fefefe;
 }
 
@@ -116,7 +116,7 @@ background-color:#fefefe;
 {
 position:relative;
 width:100%;
-height:325px;
+height:250px;
 top:10px;
 background-image:url("banner.jpg");
 background-repeat:no-repeat;
@@ -130,7 +130,7 @@ top:30px;
 left:40px;
 font-size:25px;
 color:#FFFFFF;
-font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+font-family:'Open Sans', sans-serif;
 }
 
 #headerSubtext
@@ -140,7 +140,7 @@ top:30px;
 left:50px;
 font-size:14px;
 color:#A9C8FA;
-font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+font-family:'Open Sans', sans-serif;
 }
 
 .block,
@@ -149,6 +149,8 @@ li {
 }
 
 ul {
+    margin: 0;
+    padding: 0;
   display: flex;
   list-style: none;
 }
@@ -186,9 +188,9 @@ ul {
     background-repeat:no-repeat;
     margin-left:10px;
 }
+
 #footer{
     text-align:center;
     font-size:16px;
     color:#333;
-    font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-}
+    font-family:'Open Sans', sans-serif;
